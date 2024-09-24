@@ -92,7 +92,7 @@ body {
 .contact-info__block {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .contact-info__block--center {
@@ -100,11 +100,13 @@ body {
 }
 
 .contact-info__item {
-    min-width: 120px;
+    min-width: 200px;
     color: var(--secondary-text-color);
     text-decoration: none;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .contact-info__item:not(:last-child) {
